@@ -19,7 +19,7 @@ export function Pricing() {
             No hidden fees. Cancel anytime.
           </p>
 
-          <div className="grid gap-8 md:grid-cols-2">
+          <div className="grid gap-8 md:grid-cols-2 ">
             {/* Free */}
             <Card className="border-2 shadow-lg">
               <CardHeader className="pb-8 pt-8">
@@ -36,7 +36,7 @@ export function Pricing() {
                 <ul className="space-y-3 pt-6 text-left">
                   <li className="flex items-start gap-3">
                     <Check className="mt-0.5 h-5 w-5 shrink-0 text-green-600" />
-                    <span>1–2 active invoices</span>
+                    <span>2-3 active invoices</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Check className="mt-0.5 h-5 w-5 shrink-0 text-green-600" />

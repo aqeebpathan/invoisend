@@ -41,7 +41,7 @@ export function Hero() {
             <Button
               size="lg"
               onClick={scrollToEarlyAccess}
-              className="h-12 px-8 text-base font-medium shadow-lg"
+              className="h-12 px-8 text-base font-medium cursor-pointer shadow-lg"
             >
               Join Early Access
               <ArrowRight className="ml-2 h-4 w-4" />

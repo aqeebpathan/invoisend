@@ -5,15 +5,22 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://invoisend.com"),
-  title: {
-    default: "invoisend - Stop Chasing. Start Getting Paid.",
-    template: "%s | invoisend",
-  },
+  title: "Invoisend | Automated Invoicing & Payment Reminders for Freelancers",
   description:
-    "Simple invoicing + automatic follow-ups for freelancers who hate asking clients for money.",
-  viewport: "width=device-width, initial-scale=1",
-  themeColor: "#499aff",
+    "The simple freelancer invoicing tool that helps you get paid faster. Create professional invoices, automate polite follow-ups, and accept Stripe payments instantly.",
+  keywords: [
+    "freelancer invoicing",
+    "invoice generator",
+    "payment reminders",
+    "stripe invoicing",
+    "freelance billing software",
+  ],
+  openGraph: {
+    title: "Stop Chasing Payments. Automated Invoicing for Freelancers.",
+    description:
+      "Create professional invoices and automate polite follow-ups. Get paid 2x faster.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

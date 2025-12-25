@@ -12,7 +12,7 @@ import { Footer } from "@/components/sections/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "invoisend - Create invoices. Get paid automatically.",
+  title: "Invoisend - Create invoices. Get paid automatically.",
   description:
     "Clean invoicing platform with built-in payment links and automatic follow-ups. Manage clients, track payments, and export data - all in one place.",
   keywords:

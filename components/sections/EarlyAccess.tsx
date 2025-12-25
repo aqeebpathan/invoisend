@@ -88,7 +88,7 @@ export function EarlyAccess() {
             Join early access
           </h2>
           <p className="mb-12 text-xl text-muted-foreground">
-            Be the first to know when we launch. Get 6 months free.
+            Be the first to know when we launch and get $2 off your first month.{" "}
           </p>
 
           {/* Error message */}
@@ -125,7 +125,7 @@ export function EarlyAccess() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter your email"
-                className="h-14 flex-1 text-base"
+                className="h-14 md:flex-1 text-lg! font-medium"
                 disabled={loading}
               />
               <Button
@@ -156,7 +156,7 @@ export function EarlyAccess() {
           <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <CheckCircle2 className="h-4 w-4 text-green-600" />
-              <span>6 months free</span>
+              <span>$2 off first month.</span>
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle2 className="h-4 w-4 text-green-600" />
@@ -174,7 +174,7 @@ export function EarlyAccess() {
               {[1, 2, 3, 4].map((i) => (
                 <div
                   key={i}
-                  className="h-6 w-6 rounded-full border-2 border-white bg-linear-to-br from-blue-400 to-purple-400"
+                  className="h-6 w-6 rounded-full border-2 border-white bg-linear-to-br from-blue-200 to-blue-500"
                 />
               ))}
             </div>

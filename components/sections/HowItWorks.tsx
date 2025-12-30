@@ -53,7 +53,7 @@ export function HowItWorks() {
               {steps.map((step, index) => (
                 <div key={index} className="relative">
                   <div className="relative z-10 rounded-2xl border-2 bg-white p-6 shadow-lg transition-all hover:shadow-xl hover:-translate-y-1">
-                    <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-blue-500 to-purple-600 text-lg font-bold text-white shadow-lg">
+                    <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-blue-300 to-blue-700 text-lg font-bold text-white shadow-lg">
                       {step.number}
                     </div>
 

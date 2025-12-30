@@ -8,7 +8,7 @@ export function Footer() {
 
       <div className="container relative mx-auto px-6 text-center">
         <h2 className="group text-6xl font-bold tracking-tight sm:text-7xl lg:text-8xl cursor-default">
-          <span className="relative inline-block transition-all duration-700 group-hover:scale-105">
+          <span className="relative inline-block transition-all duration-700">
             <span className="bg-linear-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
               Invoisend
             </span>
